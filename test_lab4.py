@@ -45,8 +45,8 @@ def test_lab4_test2(base_calculator):
 
 
 # CHALLENGE
-def test_subtract():
+def test_subtract(base_calculator):
     assert base_calculator.subtract(3, 2) == 1
 
-def test_multiply():
+def test_multiply(base_calculator):
     assert base_calculator.multiply(3, 2) == 6
